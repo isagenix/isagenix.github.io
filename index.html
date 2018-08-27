@@ -7,12 +7,38 @@
   <meta name="description" content="Yes">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-size: 100%;
+      font-family: sans-serif;
+    }
+    main {
+      height: 100%;
+      display: grid;
+    }
+    main > div {
+      text-align: center;
+      margin: auto;
+    }
+    main > div h1 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      margin: 0;
+    }
+    main > div p {
+      font-size: 10rem;
+      margin: 0;
+    }
   </style>
 </head>
 <body>
   <main>
-    <h1>Is Isagenix a Scam?</h1>
-    <p>Yes</p>
+    <div>
+      <h1>Is Isagenix a Scam?</h1>
+      <p>Yes</p>
+    </div>
   </main>
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
